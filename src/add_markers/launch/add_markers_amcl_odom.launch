@@ -1,0 +1,7 @@
+<launch>
+
+ <!-- add markers for amcl odom node -->
+  <node name="add_markers_amcl_odom" type="add_markers_amcl_odom" pkg="add_markers" output="screen">
+  </node>
+
+</launch>

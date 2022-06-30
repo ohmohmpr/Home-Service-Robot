@@ -207,5 +207,7 @@ include_directories(
 
 
 add_executable(add_markers src/add_markers.cpp)
+add_executable(add_markers_amcl_odom src/add_markers_amcl_odom.cpp)
 target_link_libraries(add_markers ${catkin_LIBRARIES})
+target_link_libraries(add_markers_amcl_odom ${catkin_LIBRARIES})
 

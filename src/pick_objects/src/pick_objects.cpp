@@ -42,9 +42,9 @@ int main(int argc, char** argv){
 
     // Check if the robot reached its goal
     if(ac.getState() == actionlib::SimpleClientGoalState::SUCCEEDED)
-      ROS_INFO_STREAM("Hooray, the base moved " << std::to_string(positions_x_w[i][0]) << " meter forward");
+      ROS_INFO_STREAM("Hooray, the base moved forward");
     else
-      ROS_INFO_STREAM("The base failed to move forward " << std::to_string(positions_x_w[i][0]) << " meter for some reason");
+      ROS_INFO_STREAM("The base failed to move for some reason");
     
     ros::Duration(5.0).sleep();
   }

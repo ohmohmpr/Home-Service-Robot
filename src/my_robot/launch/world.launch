@@ -32,7 +32,7 @@
               -x $(arg x) -y $(arg y) -z $(arg z)
               -R $(arg roll) -P $(arg pitch) -Y $(arg yaw)"/>
 
-  <node name="rviz" pkg="rviz" type="rviz" respawn="false" args="-d $(find my_robot)/rviz/go_chase_it.rviz"/>
+  <node name="rviz" pkg="rviz" type="rviz" respawn="false" args="-d /home/catkin_ws/src/rvizConfig/add_markers.rviz""/>
 
 </launch>
 
